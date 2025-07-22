@@ -1,0 +1,22 @@
+# Sliding Door Experts - Robots.txt
+# Allow search engines to index the website
+
+User-agent: *
+Allow: /
+
+# Important pages to crawl
+Allow: /index.html
+Allow: /styles.css
+Allow: /script.js
+
+# Disallow sensitive files
+Disallow: /.htaccess
+Disallow: /logs/
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://slidingdoorexperts.com/sitemap.xml
+
+# Crawl delay for polite bots
+Crawl-delay: 1
